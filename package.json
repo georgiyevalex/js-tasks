@@ -1,0 +1,25 @@
+{
+  "name": "js-tasks",
+  "version": "1.0.0",
+  "description": "JavaScript solutions for various coding challenges.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "js:lint": "eslint --fix tasks/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/georgiyevalex/js-tasks.git"
+  },
+  "author": "Aleksandr Georgiev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/georgiyevalex/js-tasks/issues"
+  },
+  "homepage": "https://github.com/georgiyevalex/js-tasks#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "eslint": "^9.21.0",
+    "globals": "^16.0.0"
+  }
+}
